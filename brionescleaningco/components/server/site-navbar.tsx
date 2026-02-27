@@ -25,8 +25,8 @@ export default function SiteNavbar(){
                     <a href="#services" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Services
                     </a>
-                    <a href="#reviews" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
-                        Reviews
+                    <a href="#testimonials" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
+                        Testimonials
                     </a>
                     <a href="#contact" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Contact
