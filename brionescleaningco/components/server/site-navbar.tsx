@@ -8,29 +8,29 @@ export default function SiteNavbar(){
         <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 sm:px-6">
             <div className="flex h-20 items-center justify-between">
-                <a href="#" className="flex items-center">
+                <Link href="/" className="flex items-center">
                     <Image
-                        src= "/Briones -_Primary Logo Full Color.png"
+                        src="/Briones -_Primary Logo Full Color.png"
                         alt="Briones Cleaning Co."
                         width={160}
                         height={48}
                         className="h-40 w-auto"
                         priority
-                        />
-                </a>
+                    />
+                </Link>
                 <nav className="hidden md:flex items-center gap-8">
-                    <a href="#about" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
+                    <Link href="/#about" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         About
-                    </a>
-                    <a href="#services" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
+                    </Link>
+                    <Link href="/#services" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Services
-                    </a>
-                    <a href="#testimonials" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
+                    </Link>
+                    <Link href="/#testimonials" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Testimonials
-                    </a>
-                    <a href="#contact" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
+                    </Link>
+                    <Link href="/#contact" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Contact
-                    </a>
+                    </Link>
                 </nav>
                 <div className="flex items-center gap-3">
                     <a 
