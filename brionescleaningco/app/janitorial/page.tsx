@@ -1,12 +1,19 @@
 import { ArrowLeft, Phone, Check, Clock, Shield, Award } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import GalleryCarousel from "@/components/client/gallery-carousel"  
 
 export const metadata = {
   title: "Janitorial Maintenance | Briones Cleaning Co.",
   description: "Comprehensive janitorial services for commercial spaces. Daily, weekly, or monthly cleaning customized to your business needs.",
 }
 
+const galleryImages = [
+    {
+        src: "/IMG_1288-preview.jpg",
+        alt: "Janitorial service team cleaning a commercial office space",
+    }
+]
 const features = [
   "Daily, weekly, or monthly cleaning",
   "Restroom sanitation and restocking",
@@ -38,7 +45,7 @@ export default function JanitorialPage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/services/janitorial.jpg"
+            src="/janitorial-cleaning.webp"
             alt="Janitorial Maintenance"
             fill
             className="object-cover"
@@ -128,6 +135,14 @@ export default function JanitorialPage() {
             </div>
           </div>
         </section>
+        
+                {/* Gallery */}
+                <GalleryCarousel
+                  images={galleryImages}
+                  title="Carpet & Upholstery Results"
+                  subtitle="See the transformation our professional cleaning delivers"
+                />
+                
 
         {/* CTA */}
         <section className="py-20 px-4 sm:px-6 bg-primary">
