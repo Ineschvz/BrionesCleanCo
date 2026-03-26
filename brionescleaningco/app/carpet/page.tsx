@@ -65,7 +65,7 @@ export default function CarpetUpholsteryPage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/services/carpet-upholstery.jpg"
+            src="/carpet-cleaning.webp"
             alt="Carpet & Upholstery Cleaning"
             fill
             className="object-cover"

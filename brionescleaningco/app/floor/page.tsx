@@ -1,13 +1,31 @@
 import { ArrowLeft, Phone, Check, Clock, Shield, Award } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import GalleryCarousel from "@/components/client/gallery-carousel"
 
 
 export const metadata = {
   title: "Floor Care Services | Briones Cleaning Co.",
   description: "Professional floor care for hardwood, tile, VCT, concrete, and natural stone. Cleaning, polishing, waxing, and restoration services.",
 }
-
+const galleryImages = [
+    {
+        src: "/before .jpg",
+        alt: "Before floor care service - dull, dirty floor",
+    },
+    {
+        src: "/after.jpg",
+        alt: "After floor care service - clean, shiny floor",
+    },
+    {
+        src: "/before 2.jpg",
+        alt: "Before floor care service - dull, dirty floor",
+    },
+    {
+        src: "/after 2.jpg",
+        alt: "After floor care service - clean, shiny floor",
+    }
+]
 const features = [
   "Hardwood floor cleaning and polishing",
   "Tile and grout deep cleaning",
@@ -38,7 +56,7 @@ export default function FloorCarePage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/services/floor-care.jpg"
+            src="/floor-care.webp"
             alt="Floor Care Services"
             fill
             className="object-cover"
@@ -129,6 +147,13 @@ export default function FloorCarePage() {
           </div>
         </section>
 
+        {/* Gallery */}
+        <GalleryCarousel
+          images={galleryImages}
+          title="Carpet & Upholstery Results"
+          subtitle="See the transformation our professional cleaning delivers"
+        />
+        
         {/* CTA */}
         <section className="py-20 px-4 sm:px-6 bg-primary">
           <div className="container mx-auto max-w-4xl text-center">
