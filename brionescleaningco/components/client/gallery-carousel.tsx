@@ -9,13 +9,14 @@ interface GalleryImages {
     alt: string;
 }
 
-//typescript check for props 
+//typescript check for props
 interface GalleryCarouselProps {
     images: GalleryImages[];
     title: string;
     subtitle: string;
     autoPlay?: boolean;
     autoPlayInterval?: number;
+    objectFit?: "cover" | "contain"
 }
 
 
@@ -23,8 +24,9 @@ export default function GalleryCarousel({
     images,
     title,
     subtitle,
-    autoPlay = true, 
+    autoPlay = true,
     autoPlayInterval = 5000,
+    objectFit = "contain",
 }: GalleryCarouselProps) {
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -79,7 +81,7 @@ export default function GalleryCarousel({
                   src={image.src}
                   alt={image.alt}
                   fill
-                  className="object-cover"
+                  className={objectFit === "contain" ? "object-contain" : "object-cover"}
                   priority={index === 0}
                 />
                 
