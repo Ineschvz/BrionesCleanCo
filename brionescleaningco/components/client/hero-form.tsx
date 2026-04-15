@@ -27,7 +27,7 @@ export function HeroForm() {
       })
       if (res.ok) {
         setStatus("success")
-        setFormData({ name: "", email: "", phone: "", service: "" })
+        setFormData({ name: "", email: "", phone: "", service: "", website: "" })
       } else {
         setStatus("error")
       }

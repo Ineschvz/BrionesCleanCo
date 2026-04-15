@@ -29,7 +29,7 @@ export function ContactForm() {
       })
       if (res.ok) {
         setStatus("success")
-        setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+        setFormData({ name: "", email: "", phone: "", service: "", message: "", website: "" })
       } else {
         setStatus("error")
       }
