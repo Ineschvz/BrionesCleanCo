@@ -1,5 +1,6 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Phone, Mail, Clock } from "lucide-react"
 import { ContactForm } from "@/components/client/client-form"
+import { ServiceAreaMap } from "@/components/client/service-area-map"
 
 export default function Contact() {
   return (
@@ -25,7 +26,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-primary-foreground/70">Phone</p>
-                    <p className="font-medium">(888) 555-2532</p>
+                    <p className="font-medium">919-697-0333</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -34,18 +35,10 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-primary-foreground/70">Email</p>
-                    <p className="font-medium">hello@brionescleaning.com</p>
+                    <p className="font-medium">brionescleaningco@gmail.com</p>
                   </div>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="rounded-lg bg-primary-foreground/15 p-2 mt-0.5">
-                    <MapPin className="h-4 w-4" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-primary-foreground/70">Address</p>
-                    <p className="font-medium">123 Clean Street, Austin, TX 78701</p>
-                  </div>
-                </li>
+               
                 <li className="flex items-start gap-3">
                   <div className="rounded-lg bg-primary-foreground/15 p-2 mt-0.5">
                     <Clock className="h-4 w-4" />
@@ -57,6 +50,14 @@ export default function Contact() {
                   </div>
                 </li>
               </ul>
+
+              {/* Service area map */}
+              <div className="mt-8">
+                <h3 className="text-sm font-semibold text-primary-foreground mb-3">
+                  Our Service Area
+                </h3>
+                <ServiceAreaMap />
+              </div>
             </div>
 
             {/* Right side - Form on white */}

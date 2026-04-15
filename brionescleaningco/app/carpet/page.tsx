@@ -65,7 +65,7 @@ export default function CarpetUpholsteryPage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/carpet-cleaning.webp"
+            src="/Carpet-Hero-Image.jpeg"
             alt="Carpet & Upholstery Cleaning"
             fill
             className="object-cover"
@@ -180,11 +180,11 @@ export default function CarpetUpholsteryPage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+19196970333"
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                919-697-0333
               </a>
             </div>
           </div>

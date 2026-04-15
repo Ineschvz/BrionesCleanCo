@@ -1,10 +1,11 @@
 import { ArrowRight, CheckCircle } from "lucide-react"
 import Image from "next/image"
+import { HeroForm } from "@/components/client/hero-form"
 
 const highlights = [
-  "Fully Insured & Bonded",
-  "Background-Checked Team",
-  "Satisfaction Guaranteed",
+  "Locally Owned & Operated",
+  "100% Satisfaction Guaranteed",
+  "Serving NC Since 2010",
 ]
 
 export  default function Hero() {
@@ -54,11 +55,11 @@ export  default function Hero() {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
                 <a
-                href="tel:+18885552532"
-                aria-label="Call (888) 555-2532"
+                href="tel:+19196970333"
+                aria-label="Call 919-697-0333"
                 className="inline-flex items-center justify-center rounded-lg border-2 border-white/30 bg-white/5 backdrop-blur-sm px-8 py-4 text-base font-semibold text-white hover:bg-white/10 transition-colors"
                 >
-                Call (888) 555-2532
+                Call 919-697-0333
                 </a>
             </div>
           </div>
@@ -67,36 +68,7 @@ export  default function Hero() {
           <div className="bg-card rounded-2xl p-8 shadow-2xl">
             <h2 className="text-xl font-bold text-foreground mb-2">Request Your Free Estimate</h2>
             <p className="text-muted-foreground text-sm mb-6">We respond within 24 hours.</p>
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder="Full Name"
-                className="w-full h-12 rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-colors"
-              />
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full h-12 rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-colors"
-              />
-              <input
-                type="tel"
-                placeholder="Phone Number"
-                className="w-full h-12 rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-colors"
-              />
-              <select className="w-full h-12 rounded-lg border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-colors">
-                <option value="">Select Service Type</option>
-                <option value="residential">Residential Cleaning</option>
-                <option value="commercial">Commercial Cleaning</option>
-                <option value="deep">Deep Cleaning</option>
-                <option value="move">Move In / Move Out</option>
-              </select>
-              <button
-                type="submit"
-                className="w-full h-12 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors"
-              >
-                Get My Free Quote
-              </button>
-            </form>
+            <HeroForm />
           </div>
         </div>
       </div>

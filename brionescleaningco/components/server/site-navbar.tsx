@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import MobileNav from '@/components/client/mobile-nav';
+import ServicesDropdown from '@/components/client/services-dropdown';
 
 export default function SiteNavbar(){
     return (
@@ -22,9 +23,7 @@ export default function SiteNavbar(){
                     <Link href="/#about" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         About
                     </Link>
-                    <Link href="/#services" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
-                        Services
-                    </Link>
+                    <ServicesDropdown />
                     <Link href="/#testimonials" className="text-lg text-muted-foreground hover:text-foreground transition-colors">
                         Testimonials
                     </Link>

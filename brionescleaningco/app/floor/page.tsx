@@ -56,7 +56,7 @@ export default function FloorCarePage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/floor-care.webp"
+            src="/Floor-Hero-Image.jpeg"
             alt="Floor Care Services"
             fill
             className="object-cover"
@@ -78,12 +78,12 @@ export default function FloorCarePage() {
               <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
                 Floor Care Services
               </h1>
-              <a
+              <Link
                 href="/#contact"
                 className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
               >
                 Get a Free Quote
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -171,11 +171,11 @@ export default function FloorCarePage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+19196970333"
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                919-697-0333
               </a>
             </div>
           </div>

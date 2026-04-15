@@ -26,9 +26,9 @@ const benefits = [
 const process = [
   { step: 1, title: "Planning", text: "Discuss event details, timeline, and requirements" },
   { step: 2, title: "Pre-Event", text: "Arrive early to prepare and set up the space" },
-  { step: 3, title: "Event Support", text: "Optional on-site staff for maintenance during event" },
-  { step: 4, title: "Post-Event", text: "Comprehensive cleanup immediately after" },
-  { step: 5, title: "Final Check", text: "Venue inspection to ensure it's ready for next use" },
+  // { step: 3, title: "Event Support", text: "Optional on-site staff for maintenance during event" },
+  { step: 3, title: "Post-Event", text: "Comprehensive cleanup immediately after" },
+  { step: 4, title: "Final Check", text: "Venue inspection to ensure it's ready for next use" },
 ]
 
 export default function EventCleaningPage() {
@@ -39,7 +39,7 @@ export default function EventCleaningPage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
           <Image
-            src="/services/event.jpg"
+            src="/Event-Hero-Image.jpeg"
             alt="Event Cleaning & Setup"
             fill
             className="object-cover"
@@ -111,7 +111,7 @@ export default function EventCleaningPage() {
         <section className="py-16 px-4 sm:px-6 bg-secondary/50">
           <div className="container mx-auto max-w-6xl">
             <h2 className="text-2xl font-bold text-foreground text-center mb-12">Our Process</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {process.map((item, index) => (
                 <div key={item.step} className="relative">
                   <div className="bg-card rounded-xl p-6 border border-border h-full">
@@ -147,11 +147,11 @@ export default function EventCleaningPage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+19196970333"
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                919-697-0333
               </a>
             </div>
           </div>
