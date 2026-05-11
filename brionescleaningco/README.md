@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Briones Cleaning Co. — Business Website
 
-## Getting Started
+A professional marketing website built for Briones Cleaning Co., a commercial and residential cleaning business. The goal was to give the client a clean, fast, and modern web presence that clearly communicates their services, builds trust with potential customers, and makes it easy for people to get in touch.
 
-First, run the development server:
+## Why I Built This
+
+The client needed a website to establish their business online, attract new customers, and provide a way for people to request cleaning services. Before this, they had no web presence. The site was designed to be simple to navigate, mobile-friendly, and professional enough to compete with larger cleaning companies in the area.
+
+## Pages
+
+- **Home** — Hero, About, Services overview, How It Works, and Contact form
+- **Service pages** — Dedicated landing pages for Carpet Cleaning, Floor Cleaning, Janitorial, Emergency Cleanup, and Event Cleaning
+- **Contact form** — Sends inquiries directly to the business email via Gmail SMTP
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 15 (App Router) | Framework — server components, routing, and performance |
+| React 19 | UI library |
+| Tailwind CSS v4 | Styling — utility-first, no config file needed |
+| Nodemailer + Gmail SMTP | Contact form email delivery |
+| Vercel Analytics | Page view tracking |
+| Lucide React | Icons |
+| next/font | Optimized Google Fonts (Inter + Poppins) |
+
+## Architecture
+
+Components are split by rendering strategy:
+
+- **`components/server/`** — Static sections rendered on the server (Hero, About, Services, Contact, Navbar, Footer)
+- **`components/client/`** — Interactive components with `"use client"` (contact form, mobile nav, gallery carousel)
+
+Design tokens (colors, spacing, radius) are defined as CSS custom properties in `app/globals.css` using the OkLCH color space.
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create a `.env.local` file with Gmail credentials for the contact form:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+EMAIL_USERNAME=your@gmail.com
+EMAIL_PASSWORD=your-app-password
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployed on Vercel. Add the same environment variables in the Vercel project settings for the contact form to work in production.
