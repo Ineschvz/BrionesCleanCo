@@ -101,8 +101,7 @@ export default function Services() {
             </Link>
           ))}
         </div>
-
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link
             href="/services"
             className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
@@ -110,7 +109,7 @@ export default function Services() {
             View All Services
             <ArrowRight className="h-4 w-4" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   )
