@@ -4,8 +4,8 @@ import Link from "next/link"
 import GalleryCarousel from "@/components/client/gallery-carousel"  
 
 export const metadata = {
-  title: "Janitorial Maintenance | Briones Cleaning Co.",
-  description: "Comprehensive janitorial services for commercial spaces. Daily, weekly, or monthly cleaning customized to your business needs.",
+  title: "Commercial Janitorial Services in Raleigh, NC | Briones Cleaning Co.",
+  description: "Daily, weekly, or monthly janitorial cleaning for offices and commercial spaces in Raleigh, Durham, and the Triangle. Customized plans — 919-697-0333.",
 }
 
 const galleryImages = [

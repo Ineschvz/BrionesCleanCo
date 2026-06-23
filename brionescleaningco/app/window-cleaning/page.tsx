@@ -4,8 +4,8 @@ import Link from "next/link"
 import GalleryCarousel from "@/components/client/gallery-carousel"
 
 export const metadata = {
-  title: "Window Cleaning | Briones Cleaning Co.",
-  description: "Professional interior and exterior window cleaning services. Crystal-clear results for residential and commercial properties.",
+  title: "Window Cleaning in Raleigh, NC | Briones Cleaning Co.",
+  description: "Interior and exterior window cleaning for homes and businesses in Raleigh, Durham, and the Triangle. Streak-free results guaranteed — 919-697-0333.",
 }
 
 const galleryImages = [

@@ -5,8 +5,8 @@ import GalleryCarousel from "@/components/client/gallery-carousel"
 
 
 export const metadata = {
-  title: "Carpet & Upholstery Cleaning | Briones Cleaning Co.",
-  description: "Professional carpet and upholstery cleaning services. Deep extraction technology removes dirt, stains, allergens, and odors.",
+  title: "Carpet & Upholstery Cleaning in Raleigh, NC | Briones Cleaning Co.",
+  description: "Deep carpet and upholstery cleaning in Raleigh, Durham, and the Triangle. Hot water extraction removes stains, allergens, and odors. Free estimates — 919-697-0333.",
 }
 
 const galleryImages =[

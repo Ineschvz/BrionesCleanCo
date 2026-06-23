@@ -4,8 +4,8 @@ import Link from "next/link"
 
 
 export const metadata = {
-  title: "Event Cleaning & Setup | Briones Cleaning Co.",
-  description: "Professional event cleaning and setup services for weddings, corporate events, and parties. Pre-event preparation and post-event cleanup.",
+  title: "Event Cleaning & Setup in Raleigh, NC | Briones Cleaning Co.",
+  description: "Event cleaning and setup for weddings, corporate events, and parties in Raleigh, Durham, and the Triangle. Pre-event prep and post-event cleanup — 919-697-0333.",
 }
 
 const features = [
