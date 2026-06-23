@@ -4,8 +4,8 @@ import Link from "next/link"
 
 
 export const metadata = {
-  title: "Emergency Water Extraction | Briones Cleaning Co.",
-  description: "24/7 emergency water extraction services. Fast response to minimize water damage with professional-grade equipment. Serving NC since 2010.",
+  title: "24/7 Emergency Water Extraction in Raleigh, NC | Briones Cleaning Co.",
+  description: "Emergency water extraction in Raleigh, Durham, and the Triangle. Fast response with professional-grade equipment to minimize water damage. Call now — 919-697-0333.",
 }
 
 const features = [

@@ -5,8 +5,8 @@ import GalleryCarousel from "@/components/client/gallery-carousel"
 
 
 export const metadata = {
-  title: "Floor Care Services | Briones Cleaning Co.",
-  description: "Professional floor care for hardwood, tile, VCT, concrete, and natural stone. Cleaning, polishing, waxing, and restoration services.",
+  title: "Floor Care & Polishing in Raleigh, NC | Briones Cleaning Co.",
+  description: "Professional floor cleaning, waxing, and polishing for hardwood, tile, VCT, and concrete in Raleigh, Durham, and the Triangle. Free estimates — 919-697-0333.",
 }
 const galleryImages = [
     {
