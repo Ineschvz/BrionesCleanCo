@@ -6,7 +6,7 @@ import GalleryCarousel from "@/components/client/gallery-carousel"
 
 export const metadata = {
   title: "Floor Care & Polishing in Raleigh, NC | Briones Cleaning Co.",
-  description: "Professional floor cleaning, waxing, and polishing for hardwood, tile, VCT, and concrete in Raleigh, Durham, and the Triangle. Free estimates — 919-697-0333.",
+  description: "Professional floor cleaning, waxing, and polishing for hardwood, tile, VCT, and concrete in Raleigh, Durham, and the Triangle. Free estimates — 919-973-9643.",
 }
 const galleryImages = [
     {
@@ -175,7 +175,7 @@ export default function FloorCarePage() {
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                919-697-0333
+                919-973-9643
               </a>
             </div>
           </div>

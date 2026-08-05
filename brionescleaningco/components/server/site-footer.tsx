@@ -109,7 +109,7 @@ export default function SiteFooter() {
                             <li className="flex items-start gap-3">
                                 <Phone className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
                                 <a href="tel:+19196970333" className="text-muted-foreground hover:text-foreground transition-colors">
-                                    919-697-0333
+                                    919-973-9643
                                 </a>
                             </li>
                             <li className="flex items-start gap-3">

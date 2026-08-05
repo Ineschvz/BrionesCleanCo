@@ -26,7 +26,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-primary-foreground/70">Phone</p>
-                    <p className="font-medium">919-697-0333</p>
+                    <p className="font-medium">919-973-9643</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">

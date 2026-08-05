@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Event Cleaning & Setup in Raleigh, NC | Briones Cleaning Co.",
-  description: "Event cleaning and setup for weddings, corporate events, and parties in Raleigh, Durham, and the Triangle. Pre-event prep and post-event cleanup — 919-697-0333.",
+  description: "Event cleaning and setup for weddings, corporate events, and parties in Raleigh, Durham, and the Triangle. Pre-event prep and post-event cleanup — 919-973-9643.",
 }
 
 const features = [
@@ -151,7 +151,7 @@ export default function EventCleaningPage() {
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                919-697-0333
+                919-973-9643
               </a>
             </div>
           </div>

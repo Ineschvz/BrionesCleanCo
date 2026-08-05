@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata = {
   title: "24/7 Emergency Water Extraction in Raleigh, NC | Briones Cleaning Co.",
-  description: "Emergency water extraction in Raleigh, Durham, and the Triangle. Fast response with professional-grade equipment to minimize water damage. Call now — 919-697-0333.",
+  description: "Emergency water extraction in Raleigh, Durham, and the Triangle. Fast response with professional-grade equipment to minimize water damage. Call now — 919-973-9643.",
 }
 
 const features = [
@@ -66,7 +66,7 @@ export default function EmergencyWaterExtractionPage() {
                 className="inline-flex items-center gap-2 rounded-md bg-red-600 px-6 py-3 text-sm font-medium text-white hover:bg-red-700 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                Call Now: 919-697-0333
+                Call Now: 919-973-9643
               </a>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function EmergencyWaterExtractionPage() {
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-white px-8 py-3 text-sm font-medium text-red-600 hover:bg-white/90 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                919-697-0333
+                919-973-9643
               </a>
               <Link
                 href="/#contact"

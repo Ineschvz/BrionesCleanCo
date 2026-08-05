@@ -56,10 +56,10 @@ export  default function Hero() {
               </a>
                 <a
                 href="tel:+19196970333"
-                aria-label="Call 919-697-0333"
+                aria-label="Call 919-973-9643"
                 className="inline-flex items-center justify-center rounded-lg border-2 border-white/30 bg-white/5 backdrop-blur-sm px-8 py-4 text-base font-semibold text-white hover:bg-white/10 transition-colors"
                 >
-                Call 919-697-0333
+                Call 919-973-9643
                 </a>
             </div>
           </div>

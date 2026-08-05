@@ -5,7 +5,7 @@ import GalleryCarousel from "@/components/client/gallery-carousel"
 
 export const metadata = {
   title: "Commercial Janitorial Services in Raleigh, NC | Briones Cleaning Co.",
-  description: "Daily, weekly, or monthly janitorial cleaning for offices and commercial spaces in Raleigh, Durham, and the Triangle. Customized plans — 919-697-0333.",
+  description: "Daily, weekly, or monthly janitorial cleaning for offices and commercial spaces in Raleigh, Durham, and the Triangle. Customized plans — 919-973-9643.",
 }
 
 const galleryImages = [
@@ -165,7 +165,7 @@ export default function JanitorialPage() {
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-white/30 px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                919-697-0333
+                919-973-9643
               </a>
             </div>
           </div>

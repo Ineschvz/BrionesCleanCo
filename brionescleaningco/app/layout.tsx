@@ -15,7 +15,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Briones Cleaning Co. | Professional Cleaning Services in Raleigh & the Triangle, NC",
-  description: "Professional carpet cleaning, floor care, janitorial, and window cleaning services in Raleigh, Durham, and the Triangle, NC. Locally owned since 2019. Free estimates — call 919-697-0333.",
+  description: "Professional carpet cleaning, floor care, janitorial, and window cleaning services in Raleigh, Durham, and the Triangle, NC. Locally owned since 2019. Free estimates — call 919-973-9643.",
 };
 
 //Structured data for SEO using JSON-LD format
@@ -24,7 +24,7 @@ const jsonLd = {
   "@type": "CleaningBusiness",
   name: "Briones Cleaning Co.",
   url: "https://www.brionescleaning.com",
-  telephone: "+1-919-697-0333",
+  telephone: "+1-919-973-9643",
   email: "brionescleaningco@gmail.com",
   foundingDate: "2019",
   founder: {
