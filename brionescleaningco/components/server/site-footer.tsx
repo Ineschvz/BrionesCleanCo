@@ -12,7 +12,7 @@ export default function SiteFooter() {
                     <div className="lg:col-span-1">
                         <Link href="/" className="inline-flex items-center">
                             <Image
-                                src="/Briones -_Primary Logo Full Color.png"
+                                src="/Briones-PrimLogo.png"
                                 alt="Briones Cleaning Co."
                                 width={160}
                                 height={48}

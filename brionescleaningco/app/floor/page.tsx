@@ -49,9 +49,28 @@ const process = [
   { step: 5, title: "Buff & Polish", text: "Final buffing for a brilliant, lasting shine" },
 ]
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Floor Care & Polishing",
+  description: "Professional floor cleaning, waxing, and polishing for hardwood, tile, VCT, and concrete in Raleigh, Durham, and the Triangle, NC.",
+  url: "https://www.brionescleaning.com/floor",
+  provider: {
+    "@type": "CleaningBusiness",
+    name: "Briones Cleaning Co.",
+    telephone: "+1-919-973-9643",
+    url: "https://www.brionescleaning.com",
+  },
+  areaServed: ["Raleigh", "Durham", "Chapel Hill", "Cary", "Apex", "Morrisville"],
+}
+
 export default function FloorCarePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <main className="min-h-screen pt-16">
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">
