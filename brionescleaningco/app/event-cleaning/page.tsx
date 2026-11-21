@@ -31,10 +31,28 @@ const process = [
   { step: 4, title: "Final Check", text: "Venue inspection to ensure it's ready for next use" },
 ]
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Event Cleaning & Setup",
+  description: "Event cleaning and setup for weddings, corporate events, and parties in Raleigh, Durham, and the Triangle, NC. Pre-event prep and post-event cleanup.",
+  url: "https://www.brionescleaning.com/event-cleaning",
+  provider: {
+    "@type": "CleaningBusiness",
+    name: "Briones Cleaning Co.",
+    telephone: "+1-919-973-9643",
+    url: "https://www.brionescleaning.com",
+  },
+  areaServed: ["Raleigh", "Durham", "Chapel Hill", "Cary", "Apex", "Morrisville"],
+}
+
 export default function EventCleaningPage() {
   return (
     <>
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <main className="min-h-screen pt-16">
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[400px]">

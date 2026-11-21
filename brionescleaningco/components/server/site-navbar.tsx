@@ -11,7 +11,7 @@ export default function SiteNavbar(){
             <div className="flex h-20 items-center justify-between">
                 <Link href="/" className="flex items-center">
                     <Image
-                        src="/Briones -_Primary Logo Full Color.png"
+                        src="/Briones-PrimLogo.png"
                         alt="Briones Cleaning Co."
                         width={160}
                         height={48}

@@ -16,6 +16,28 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Briones Cleaning Co. | Professional Cleaning Services in Raleigh & the Triangle, NC",
   description: "Professional carpet cleaning, floor care, janitorial, and window cleaning services in Raleigh, Durham, and the Triangle, NC. Locally owned since 2019. Free estimates — call 919-973-9643.",
+  openGraph: {
+    title: "Briones Cleaning Co. | Professional Cleaning Services in Raleigh & the Triangle, NC",
+    description: "Professional carpet cleaning, floor care, janitorial, and window cleaning services in Raleigh, Durham, and the Triangle, NC. Locally owned since 2019. Free estimates — call 919-973-9643.",
+    url: "https://www.brionescleaning.com",
+    siteName: "Briones Cleaning Co.",
+    images: [
+      {
+        url: "https://www.brionescleaning.com/HeroImage.webp",
+        width: 1200,
+        height: 630,
+        alt: "Briones Cleaning Co. - Professional Cleaning Services in Raleigh, NC",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Briones Cleaning Co. | Professional Cleaning Services in Raleigh & the Triangle, NC",
+    description: "Professional carpet cleaning, floor care, janitorial, and window cleaning services in Raleigh, Durham, and the Triangle, NC. Locally owned since 2019. Free estimates — call 919-973-9643.",
+    images: ["https://www.brionescleaning.com/HeroImage.webp"],
+  },
 };
 
 //Structured data for SEO using JSON-LD format
@@ -31,10 +53,14 @@ const jsonLd = {
     "@type": "Person",
     name: "Amado Briones",
   },
-  areaServed: {
-    "@type": "State",
-    name: "North Carolina",
-  },
+  areaServed: [
+    { "@type": "City", name: "Raleigh", containedInPlace: { "@type": "State", name: "North Carolina" } },
+    { "@type": "City", name: "Durham", containedInPlace: { "@type": "State", name: "North Carolina" } },
+    { "@type": "City", name: "Chapel Hill", containedInPlace: { "@type": "State", name: "North Carolina" } },
+    { "@type": "City", name: "Cary", containedInPlace: { "@type": "State", name: "North Carolina" } },
+    { "@type": "City", name: "Apex", containedInPlace: { "@type": "State", name: "North Carolina" } },
+    { "@type": "City", name: "Morrisville", containedInPlace: { "@type": "State", name: "North Carolina" } },
+  ],
   serviceType: [
     "Carpet Cleaning",
     "Floor Care",
@@ -43,10 +69,12 @@ const jsonLd = {
     "Event Cleaning",
     "Emergency Water Extraction",
   ],
-  logo: "https://www.brionescleaning.com/Briones -_Primary Logo Full Color.png",
+  logo: "https://www.brionescleaning.com/Briones-PrimLogo.png",
   image: "https://www.brionescleaning.com/HeroImage.webp",
   priceRange: "$$",
-  sameAs: [],
+  sameAs: [
+    "https://share.google/bdrjjOKyqCI8I40fd",
+  ],
 }
 
 export default function RootLayout({
